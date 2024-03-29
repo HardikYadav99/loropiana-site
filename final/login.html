@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap">
+
+</head>
+<header class="header">
+    <div class="logo-container">
+        <img src="logo/logo.png" alt="Your Logo">
+    </div>
+    <h1 class="header-text">My Loro Piana</h1>
+</header>
+<body>
+    <div class="container">
+        <div class="login-section">
+            <h2>Please login to see your account</h2>
+            <form id="login-form" action="test.html" method="post">
+           
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="show-password">
+                    <label for="show-password">Show Password</label>
+                </div>
+           
+                <button onclick="window.location.href = 'test.html';" class="login-button">Login</button>
+
+                
+                
+               
+             
+            </form>
+            <div id="error-message" class="error-message"></div>
+            <p class="register-text">Not yet registered? Join Loro Piana by creating a personal account.</p>
+            <button onclick="window.location.href = 'signup.html';"  class="create-account-button">Create Account</button>
+        </div>
+        <div class="photo-section">
+            <img src="login photos/login .avif" alt="Photo">
+        </div>
+    </div>
+</form>
+   
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="logo/black logo.jpg" alt="Logo">
+            </div>
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Get in touch</h3>
+                    <a href="#">Contacts</a>
+                    <a href="#">FAQ</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <a href="#">Loro Piana Stores</a>
+                    <a href="#">Career</a>
+                    <a href="#">Loro Piana Textile</a>
+                    <a href="#">Loro Piana Interiors</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <a href="#">All Services</a>
+                    <a href="#">Gift Card</a>
+                    <a href="#">Returns & exchange</a>
+                    <a href="#">Delivery & shipping</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal & Cookies</h3>
+                    <a href="#">Compliance</a>
+                    <a href="#">Legal</a>
+                    <a href="#">Privacy & Cookie</a>
+                    <a href="#">Accessibility</a>
+                </div>
+            </div>
+        </div>
+  
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>

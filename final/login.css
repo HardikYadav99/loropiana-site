@@ -1,0 +1,236 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: row;
+    margin-top: 0%;
+}
+
+.login-section, .photo-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 60%; /* Adjust the width as needed */
+    height: 500px;
+}
+
+.login-section {
+    margin-right: 20px; /* Adjust margin between sections */
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+    }
+    
+
+
+.photo-section {
+    margin-left: 20px; /* Adjust margin between sections */
+}
+
+/* Additional styles for login and photo sections */
+.login-section form {
+    width: 50%; /* Ensure form takes full width of login section */
+ 
+}
+
+.photo-section img {
+    width: 100%; /* Make the image fill the photo section */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* Apply the provided CSS to the button with class .login-button */
+button.login-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #fff;
+    border: 1px solid rgb(169, 86, 86);
+    border-radius: 4px;
+    color: rgb(169, 86, 86);
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'EB Garamond', serif; /* Use EB Garamond font for the text */
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+button.login-button:hover {
+    background-color: rgb(169, 86, 86);
+    border-color: rgb(169, 86, 86);
+    color: #fff;
+}
+
+
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.photo-section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* css for create account */
+.create-account-button {
+    display: block;
+    width: 60%;
+    padding: 12px;
+    background-color: #fff;
+    border: 1px solid rgb(169, 86, 86);
+    border-radius: 4px;
+    color: rgb(169, 86, 86);
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    
+}
+.create-account-button {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+.create-account-button:hover {
+    background-color: rgb(169, 86, 86);
+    border-color: rgb(169, 86, 86);
+    color: #fff;
+}
+.text-above-button {
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px; /* Add some space below the text */
+  
+}
+
+/* Styling for the footer */
+footer {
+    background-color: rgb(169, 86, 86); /* Background color for the footer */
+    color: rgb(255, 254, 254); /* Text color for the footer */
+    padding: 20px; /* Padding around the footer content */
+    text-align: center; /* Center-align the content */
+}
+
+
+.footer {
+    background-color: rgb(169, 86, 86); /* Change background color */
+    color: #f5f5f5; /* Off white text color */
+    padding: 40px; /* Increase padding for the footer */
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center horizontally */
+ 
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    justify-content: center; /* Center horizontally */
+}
+
+.footer-logo {
+    margin-right: auto; /* Push logo to the left */
+    margin-left: 20px; /* Adjust margin to center horizontally */
+}
+
+.footer-logo img {
+    width: 400px; /* Increase width of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center; /* Center align text */
+    max-width: 1200px; /* Limit maximum width of content */
+    width: 100%;
+}
+
+.footer-column {
+    text-align: left; /* Align text to the left */
+    margin-right: 90px; /* Add spacing between columns */
+    margin-left: 40px;
+}
+
+.footer-column:last-child {
+    margin-right: 0; /* Remove right margin for the last column */
+}
+
+.footer-column h3 {
+    font-size: 14px; /* Decrease font size of the heading */
+    font-family: Arial, Helvetica, sans-serif; /* Use Arial or generic sans-serif font */
+    font-weight: lighter; /* Set font weight to lighter */
+    margin-bottom: 30px;
+    padding: 10px 0; /* Adjust padding top and bottom */
+    transition: all 0.3s ease; /* Add smooth transition effect */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.footer-column a {
+    font-size: 12px; /* Decrease font size of links */
+    font-family: Arial, Helvetica, sans-serif; /* Use Arial or generic sans-serif font */
+    font-weight: lighter; /* Set font weight to lighter */
+    display: block;
+    color: #f5f5f5;
+    text-decoration: none;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* header styling */
+.header {
+    text-align: center;
+    margin-bottom: 10px; /* Adjust margin as needed */
+    border-bottom: 2px solid #ccc; /* Add border to the bottom */
+    margin-top: 10px;
+    border-top: 2px solid #ccc;
+}
+
+.logo-container {
+    margin: 0 auto; /* Center the logo horizontally */
+}
+
+.logo-container img {
+    width: 200px; /* Adjust the width of the logo as needed */
+}
+
+.header-text {
+    font-family: 'EB Garamond', serif; /* Use EB Garamond font for the text */
+    margin-top: 10px; /* Adjust spacing between logo and text */
+    margin-bottom: 20px; /* Add margin below the text */
+}

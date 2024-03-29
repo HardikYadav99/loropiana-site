@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-ixgk+Yg0ZZmkxTKxJvRU5cPbXob0fJNxzdov2frEwhnxTJWZ2dFghdfi/IN66KK2jR1WttzitEzNyyeFy6N5UA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+<header class="header">
+    <div class="logo-container">
+        <img src="logo/logo.png" alt="Your Logo">
+    </div>
+    <h1 class="header-text">My Loro Piana</h1>
+    <h2 class="singup-text">Please provide your details to create an account.</h2>
+</header>
+
+<div class="signup-form">
+    <form action="test.html" method="post">
+        <div class="form-group">
+            <label for="title">*Title:</label><br>
+            <select id="title" name="title">
+                <option value="Ms">Ms</option>
+                <option value="Mrs">Mrs</option>
+                <option value="Mr">Mr</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="firstname">*First Name:</label><br>
+            <input type="text" id="firstname" name="firstname" required>
+        </div>
+        <div class="form-group">
+            <label for="lastname">*Last Name:</label><br>
+            <input type="text" id="lastname" name="lastname" required>
+        </div>
+        <div class="form-group">
+            <label for="email">*Email:</label><br>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="password">*Password:</label><br>
+            <div class="password-container">
+                <input type="password" id="password" name="password" required>
+                <i class="fas fa-eye" id="toggle-password"></i>
+            </div>
+        </div>
+        <p class="bullet-point">• Loro Piana will process your personal data in compliance with the Privacy Notice and you can withdraw the consent indicated above at any time.</p>
+        <p class="bullet-point">• By registering you hereby declare that you are at least 18 years of age or older (or the legal minimum age required by your country) and that you agree with the Terms of Use of the Website</p>
+        <input type="submit" href="test.html" value="Register">
+    </form>
+    
+</div>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-logo">
+            <img src="logo/black logo.jpg" alt="Logo">
+        </div>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Get in touch</h3>
+                <a href="#">Contacts</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div class="footer-column">
+                <h3>Company</h3>
+                <a href="#">Loro Piana Stores</a>
+                <a href="#">Career</a>
+                <a href="#">Loro Piana Textile</a>
+                <a href="#">Loro Piana Interiors</a>
+            </div>
+            <div class="footer-column">
+                <h3>Services</h3>
+                <a href="#">All Services</a>
+                <a href="#">Gift Card</a>
+                <a href="#">Returns & exchange</a>
+                <a href="#">Delivery & shipping</a>
+            </div>
+            <div class="footer-column">
+                <h3>Legal & Cookies</h3>
+                <a href="#">Compliance</a>
+                <a href="#">Legal</a>
+                <a href="#">Privacy & Cookie</a>
+                <a href="#">Accessibility</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loro Piana</title>
+     <link rel="stylesheet" href="test.css"> 
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap">
+
+</head>
+<header class="header">
+    <div class="logo">
+        <a href="#"><img src="logo/logo.png" alt="Logo"></a>
+    </div>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://us.loropiana.com/en/c/woman&ved=2ahUKEwiH6bLEgY6FAxXVwjgGHfNzBEYQFnoECBcQAQ&usg=AOvVaw38mZB__1BaEUqadaS_Rd0h">Woman</a></li>
+            <li><a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ii.loropiana.com/en/c/man/shirts&ved=2ahUKEwj58vPMgY6FAxVwxjgGHePSDkwQFnoECCIQAQ&usg=AOvVaw2u41D2_4UvEigOrPWw58mc">Men</a></li>
+            <li><a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ii.loropiana.com/en/c/man/shirts&ved=2ahUKEwj58vPMgY6FAxVwxjgGHePSDkwQFnoECCIQAQ&usg=AOvVaw2u41D2_4UvEigOrPWw58mc">Kids</a></li>
+            <li><a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://us.loropiana.com/en/c/gifting-idea/man/art-of-living&ved=2ahUKEwjZkb_jgY6FAxVy4TgGHZVSADwQFnoECCMQAQ&usg=AOvVaw15W7u66vChJaKQzPKXvL0Z">Art of Living</a></li>
+            <li><a href="aboutus.html">About us</a></li>
+        </ul>
+    </nav>
+    <div class="search-bar">
+        <input type="text" placeholder="Search">
+       
+        <button onclick="searchContent()"></button>
+    </div>
+    <div class="user">
+        <img src="logo/user.png" alt="User">
+        <div class="dropdown-content">
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign Up</a>
+        </div>
+    </div>
+</header>
+
+
+<body>
+    <div class="video-container">
+        <video id="video-player" autoplay loop muted>
+            <source src="videos/main.mov" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="text">
+        <p>Discover the novelties of the Spring Summer 2024 collection,<br>exceptional savoir-faire by dedicated and skilled artisans.</p>
+    </div>
+    <div class="season">
+        <p class="fancy">Spring-Summer</p>
+        <p class="year">2024</p>
+        <div class="options-box">
+            <a href="https://us.loropiana.com/en/c/spring-summer/woman" class="option">-Woman-</a>
+            <a href="https://us.loropiana.com/en/c/spring-summer/man" class="option">-Man-</a>
+        </div>
+        <p class="womancontainer-text">WOMAN</p>
+    </div>
+    
+    
+
+    <!-- HTML structure for adding photos with name and price -->
+    <div class="existing-photos">
+        <div class="photo-section">
+            <div class="photo">
+                <img src="cardigans/cardigan1.jpg.avif" alt="photo 1">
+                <p>Klara Shirt</p>
+                <p>$2,350.00</p>
+            </div>
+            <div class="photo">
+                <img src="cardigans/cardigan2.jpg.avif" alt="Photo 2">
+                <p>Ariel Skirt</p>
+                <p>$2,000.00</p>
+            </div>
+            <div class="photo">
+                <img src="cardigans/cardigan3.jpg.avif" alt="Photo 3">
+                <p>Cherry Blossom Stole</p>
+                <p>$775.00</p>
+            </div>
+            <div class="photo">
+                <img src="cardigans/cardigan4.jpg.avif" alt="Photo 4">
+                <p>Small Bale Bag</p>
+                <p>$3,275.00</p>
+            </div>
+        </div>
+
+        <!-- Container for the second set of photos -->
+        <div class="four-photo-container">
+        </div>
+
+        <div class="two-image-container">
+            <div class="grayscale-hover">
+                <div class="container">
+                    <img src="jacket/woman jacket .jpg.avif" alt="Image 1 description">
+                    <p class="photo-text-1">WOMAN</p>
+                    <p class="photo-text-3">Jackets</p>
+                    <a href="https://us.loropiana.com/en/c/woman/blazers" class="photo-text-5">-Discover More-</a>
+                    <img src="jacket/man jacket.jpg.avif".jpg alt="Image 2 description">
+                    <p class="photo-text-2">MAN</p>
+                    <p class="photo-text-4">Jackets</p>
+                    <a href="https://us.loropiana.com/en/c/man/blazers" class="photo-text-6">-Discover More-</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4 SECTIONS BELOW MAN WOMAN JACKET -->
+        <div class="black-background">
+            <div class="section-old">
+                <img src="photos/girlshow.jpg.avif" alt="Photo 1">
+            </div>
+            <div class="product-container">
+                <h1>THE LOOK</h1>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="scroll photos/cocooning crewneck.jpg.avif" class="product-thumb" alt="">
+                        <button class="card-btn">add to wishlist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Cocooning Crewneck</h2>
+                        <p class="product-short-description">Pure Cashmere Yarn</p>
+                        <span class="price">$1,600.00</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="scroll photos/cocooning crewneck1.jpg.avif" class="product-thumb" alt="">
+                        <button class="card-btn">add to wishlist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Cocooning Crewneck</h2>
+                        <p class="product-short-description">Pure Cashmere Yarn</p>
+                        <span class="price">$1600</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="scroll photos/cocooning shorts.jpg.avif" class="product-thumb" alt="">
+                        <button class="card-btn">add to wishlist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Cocooning Shorts</h2>
+                        <p class="product-short-description">Pure Cashmere Yarn</p>
+                        <span class="price">$1000</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                    
+                        <img src="scroll photos/cocooning cap.jpg.avif" class="product-thumb" alt="">
+                        <button class="card-btn">add to wishlist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Cocooning Beanie</h2>
+                        <p class="product-short-description">Pure Cashmere Yarn</p>
+                        <span class="price">$450</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+
+    <div class="photo-section-4">
+        <div class="photo-container">
+            <div class="photo">
+                <img src="photos/loafer contentful.jpg" alt="Photo 1">
+            </div>
+            <div class="photo">
+                <img src="photos/loafer.jpg.avif" alt="Photo 2">
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="text-and-photo-container">
+        <h1 class="text-above-iconic">Loro Piana Icons</h1>
+        <p class="additional-text">Instantly recognised by discerning eyes. Loro Piana Icons are timeless,<br> elegant, and always crafted from exceptional materials.
+             </p>
+        <div class="iconic">
+            <img src="photos/iconic.jpg.avif" alt="Most bought jacket">
+        </div>
+            <div class="text-below-iconic">
+                <a href="https://us.loropiana.com/en/c/man/icons">-Discover-</a>
+            
+        </div>
+    </div>
+    
+ <!-- Add this section below your last section -->
+ <div class="photo-section-2">
+    <h2 class="common-heading">At your 
+        service</h2>
+    <div class="photo-container">
+        <div class="photo-with-text">
+            <img src="footer/scooter.png.avif" alt="Photo 1">
+            <p>Free Shipping</p>
+        </div><div class="separator"></div><div class="photo-with-text">
+            <img src="footer/box.png.avif" alt="Photo 2">
+            <p>Free Returns and Exchange</p>
+        </div><div class="separator"></div><div class="photo-with-text">
+            <img src="footer/notebook.png.avif" alt="Photo 3">
+            <p>Book a Private Appointment in Store</p>
+        </div>
+    </div>
+</div>
+
+    
+
+<!--footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="logo/black logo.jpg" alt="Logo">
+            </div>
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Get in touch</h3>
+                    <a href="#">Contacts</a>
+                    <a href="#">FAQ</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <a href="#">Loro Piana Stores</a>
+                    <a href="#">Career</a>
+                    <a href="#">Loro Piana Textile</a>
+                    <a href="#">Loro Piana Interiors</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <a href="#">All Services</a>
+                    <a href="#">Gift Card</a>
+                    <a href="#">Returns & exchange</a>
+                    <a href="#">Delivery & shipping</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal & Cookies</h3>
+                    <a href="#">Compliance</a>
+                    <a href="#">Legal</a>
+                    <a href="#">Privacy & Cookie</a>
+                    <a href="#">Accessibility</a>
+                </div>
+            </div>
+        </div>
+  
+    </footer>
+    
+    <script src="test.js"></script>
+</body>
+
+
+</html>
